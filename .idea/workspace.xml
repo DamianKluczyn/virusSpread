@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5988ac29-2ca4-4412-83d4-930ee427cce2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/State/HealtyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/State/IState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/State/ImmuneState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/CareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/SimualtionCareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Simulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/SimulationMemento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/VirusApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/VirusApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/VirusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/VirusController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/virusspread/virus-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/virusspread/virus-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/Vector2d/IVector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Vector2d/IVector2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/Vector2d/Vector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Vector2d/Vector2D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670716209543</updated>
       <workItem from="1670716210735" duration="1601000" />
-      <workItem from="1670752916448" duration="5518000" />
+      <workItem from="1670752916448" duration="15594000" />
     </task>
     <servers />
   </component>

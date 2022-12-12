@@ -1,4 +1,4 @@
-package com.example.virusspread.Vector2d;
+package com.example.virusspread.model.Vector2d;
 
 import java.util.ArrayList;
 
