@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5988ac29-2ca4-4412-83d4-930ee427cce2" name="Changes" comment="Added Person, Memento, CareTaker">
+    <list default="true" id="5988ac29-2ca4-4412-83d4-930ee427cce2" name="Changes" comment="Added Direction, Position class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Memento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Memento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/SimualtionCareTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/SimulationCareTaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/SimulationMemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/SimulationMemento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
       <updated>1670716209543</updated>
       <workItem from="1670716210735" duration="1601000" />
       <workItem from="1670752916448" duration="16383000" />
-      <workItem from="1670860004582" duration="3554000" />
+      <workItem from="1670860004582" duration="5146000" />
     </task>
     <task id="LOCAL-00001" summary="Added Person, Memento, CareTaker">
       <created>1670805702340</created>
@@ -93,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670805702340</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Direction, Position class">
+      <created>1670871145480</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670871145480</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Person, Memento, CareTaker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Person, Memento, CareTaker" />
+    <MESSAGE value="Added Direction, Position class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Direction, Position class" />
   </component>
 </project>
