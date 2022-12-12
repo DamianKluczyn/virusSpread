@@ -95,7 +95,7 @@ public class Person {
     public Memento memento(){
         return new Memento(healTime, state, direction, position, sickTime, timeNearSick);
     }
-    public void createMemento(Integer second){
+    public void saveMemento(Integer second){
         careTaker.save(second);
     }
     public boolean load(int second){
@@ -103,7 +103,7 @@ public class Person {
         draw();
         return memento;
     }
-    public void feelBetter(){
+    public void recoverHealth(){
         if(state instanceof NoSymptomsState || state instanceof  SymptomsState){
             sickTime += 0.04;
             if(sickTime >= healTime){

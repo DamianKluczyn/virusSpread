@@ -1,5 +1,6 @@
 package com.example.virusspread;
 
+import com.example.virusspread.model.Object.Simulation;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.layout.BorderPane;
@@ -25,8 +26,5 @@ public class VirusController {
 
     Simulation simulation;
 
-    @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
-    }
+
 }

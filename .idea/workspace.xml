@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5988ac29-2ca4-4412-83d4-930ee427cce2" name="Changes" comment="Added Direction, Position class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/SimualtionCareTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/SimulationCareTaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/SimulationMemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/SimulationMemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/VirusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/VirusController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Simulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/SimulationCareTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/SimulationCareTaker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +84,7 @@
       <updated>1670716209543</updated>
       <workItem from="1670716210735" duration="1601000" />
       <workItem from="1670752916448" duration="16383000" />
-      <workItem from="1670860004582" duration="5146000" />
+      <workItem from="1670860004582" duration="8061000" />
     </task>
     <task id="LOCAL-00001" summary="Added Person, Memento, CareTaker">
       <created>1670805702340</created>

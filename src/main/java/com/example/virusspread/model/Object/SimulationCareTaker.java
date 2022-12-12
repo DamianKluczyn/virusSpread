@@ -14,13 +14,13 @@ public class SimulationCareTaker {
 
     public void save(Integer second){
         System.out.println(simulationMementoMap.size());
-        simulationMementoMap.put(second, simulation.memento());
+        simulationMementoMap.put(second, simulation.snapshot());
     }
 
     public boolean load(Integer second){
         if(simulationMementoMap.containsKey(second)){
             SimulationMemento snapshot = simulationMementoMap.get(second);
-            simulation.setPerson(snapshot.personArrayList);
+            simulation.setPersonArrayList(snapshot.personArrayList);
             return true;
         }
         else{
