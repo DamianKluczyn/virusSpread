@@ -5,7 +5,6 @@ import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 
-import javax.swing.text.Position;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
@@ -94,7 +93,7 @@ public class Person {
     }
 
     public Memento memento(){
-        return new Memento(healTime, state, direction, position, pane, circle, sickTime, timeNearSick);
+        return new Memento(healTime, state, direction, position, sickTime, timeNearSick);
     }
     public void createMemento(Integer second){
         careTaker.save(second);

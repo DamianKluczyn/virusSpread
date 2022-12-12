@@ -19,7 +19,8 @@ public class Memento {
     public double sickTime = 0.0;
     public Map<Person, Double> timeNearSick;
 
-    public Memento(double healTime, IState state, Direction direction, Position position, Pane pane, Circle circle, double sickTime, Map<Person, Double> timeNearSick){
+    public Memento(double healTime, IState state, Direction direction, Position position, double sickTime, Map<Person, Double> timeNearSick){
+        this.healTime = healTime;
         this.circle = new Circle(radius, state.getColor());
         this.sickTime = sickTime;
         this.timeNearSick = new HashMap<>();
