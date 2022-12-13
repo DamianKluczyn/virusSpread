@@ -1,8 +1,7 @@
-package com.example.virusspread.model.Object;
+package com.kluczynskidamian.virusspread.model.Object;
 
 import java.util.HashMap;
 import java.util.Map;
-import com.example.virusspread.model.State.IState;
 
 public class CareTaker {
     private Person person;

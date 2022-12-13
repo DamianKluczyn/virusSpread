@@ -1,10 +1,9 @@
-package com.example.virusspread.model.Object;
+package com.kluczynskidamian.virusspread.model.Object;
 
-import com.example.virusspread.model.State.*;
+import com.kluczynskidamian.virusspread.model.State.*;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
-import static com.example.virusspread.model.Object.Person.radius;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -19,9 +18,10 @@ public class Memento {
     public double sickTime = 0.0;
     public Map<Person, Double> timeNearSick;
 
-    public Memento(double healTime, IState state, Direction direction, Position position, double sickTime, Map<Person, Double> timeNearSick){
+    public Memento(double healTime, IState state, Direction direction, Position position, double sickTime, Map<Person, Double> timeNearSick, Pane pane){
+        this.pane = pane;
         this.healTime = healTime;
-        this.circle = new Circle(radius, state.getColor());
+        this.circle = new Circle(Person.radius, state.getColor());
         this.sickTime = sickTime;
         this.timeNearSick = new HashMap<>();
         this.direction = new Direction(direction.getX(), direction.getY(), direction.getSpeed());

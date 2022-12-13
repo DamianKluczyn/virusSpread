@@ -1,6 +1,6 @@
-package com.example.virusspread.model.Object;
-import com.example.virusspread.model.State.*;
+package com.kluczynskidamian.virusspread.model.Object;
 
+import com.kluczynskidamian.virusspread.model.State.*;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
@@ -93,7 +93,7 @@ public class Person {
     }
 
     public Memento memento(){
-        return new Memento(healTime, state, direction, position, sickTime, timeNearSick);
+        return new Memento(healTime, state, direction, position, sickTime, timeNearSick, pane);
     }
     public void saveMemento(Integer second){
         careTaker.save(second);
@@ -131,6 +131,7 @@ public class Person {
         circle.setRadius(radius);
         circle.setTranslateX(position.getX());
         circle.setTranslateY(position.getY());
+        circle.setStroke(Color.BLACK);
     }
     public void undraw(){
         circle.setRadius(0);

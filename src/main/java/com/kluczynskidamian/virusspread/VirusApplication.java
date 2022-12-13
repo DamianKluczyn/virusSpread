@@ -1,4 +1,4 @@
-package com.example.virusspread;
+package com.kluczynskidamian.virusspread;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,7 +11,7 @@ public class VirusApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(VirusApplication.class.getResource("virus-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 500, 600);
+        Scene scene = new Scene(fxmlLoader.load(), 500, 500);
         stage.setScene(scene);
         stage.show();
     }

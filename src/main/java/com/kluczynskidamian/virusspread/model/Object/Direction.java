@@ -1,6 +1,6 @@
-package com.example.virusspread.model.Object;
+package com.kluczynskidamian.virusspread.model.Object;
 
-import com.example.virusspread.model.Vector2d.Vector2D;
+import com.kluczynskidamian.virusspread.model.Vector2d.Vector2D;
 
 public class Direction {
     private double speed;

@@ -1,9 +1,10 @@
-package com.example.virusspread.model.Object;
+package com.kluczynskidamian.virusspread.model.Simulation;
 
-import com.example.virusspread.model.State.HealtyState;
-import com.example.virusspread.model.State.ImmuneState;
-import com.example.virusspread.model.State.NoSymptomsState;
-import com.example.virusspread.model.State.SymptomsState;
+import com.kluczynskidamian.virusspread.model.Object.Person;
+import com.kluczynskidamian.virusspread.model.State.HealtyState;
+import com.kluczynskidamian.virusspread.model.State.ImmuneState;
+import com.kluczynskidamian.virusspread.model.State.NoSymptomsState;
+import com.kluczynskidamian.virusspread.model.State.SymptomsState;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import java.util.ArrayList;

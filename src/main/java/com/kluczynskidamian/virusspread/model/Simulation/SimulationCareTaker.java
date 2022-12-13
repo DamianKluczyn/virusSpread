@@ -1,4 +1,4 @@
-package com.example.virusspread.model.Object;
+package com.kluczynskidamian.virusspread.model.Simulation;
 
 import java.util.HashMap;
 import java.util.Map;

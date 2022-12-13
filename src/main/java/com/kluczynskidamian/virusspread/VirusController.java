@@ -1,31 +1,15 @@
-package com.example.virusspread;
+package com.kluczynskidamian.virusspread;
 
-import com.example.virusspread.model.Object.Simulation;
+import com.kluczynskidamian.virusspread.model.Simulation.Simulation;
 import javafx.animation.AnimationTimer;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import javafx.scene.layout.*;
-import com.example.virusspread.model.Object.Simulation;
 import javafx.scene.paint.Color;
 import javafx.event.Event;
 
-import javafx.animation.AnimationTimer;
-import javafx.beans.Observable;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
-import javafx.collections.ObservableListBase;
-import javafx.event.Event;
-import javafx.fxml.FXML;
-import javafx.scene.control.*;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.BackgroundFill;
 import javafx.scene.layout.Pane;
-import javafx.scene.paint.Color;
-import org.w3c.dom.Text;
-
-import java.awt.event.ActionEvent;
-import java.util.ArrayList;
-import java.util.List;
 
 public class VirusController {
     @FXML
@@ -36,6 +20,8 @@ public class VirusController {
     private Button stopButton;
     @FXML
     private Button stepButton;
+    @FXML
+    private Button resetButton;
     @FXML
     private CheckBox immunityBox;
     @FXML
@@ -103,7 +89,7 @@ public class VirusController {
     public void reset(){
         stop();
         pane.getChildren().clear();
-        simulation = new Simulation(pane, 100, immunityBox.isSelected());
+        simulation = new Simulation(pane, 200, immunityBox.isSelected());
         clock.resetTime();
         snapshotBox.getItems().clear();
         simulation.saveMemento(0);

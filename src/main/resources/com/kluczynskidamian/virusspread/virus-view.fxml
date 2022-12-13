@@ -11,12 +11,12 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ciosmak.virus_spread.SimulationController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kluczynskidamian.virusspread.VirusController">
     <top>
         <Label text="Virus Spread Simulation" BorderPane.alignment="CENTER" />
     </top>
     <center>
-        <Pane fx:id="world" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <Pane fx:id="pane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
             <BorderPane.margin>
                 <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
             </BorderPane.margin>
@@ -25,20 +25,20 @@
     <bottom>
         <HBox alignment="CENTER" BorderPane.alignment="CENTER">
             <children>
-                <Button mnemonicParsing="false" onAction="#reset" text="Reset">
-               <HBox.margin>
+                <Button fx:id="resetButton" mnemonicParsing="false" onAction="#reset" text="Reset">
+                    <HBox.margin>
                   <Insets bottom="5.0" left="7.0" right="7.0" top="5.0" />
                </HBox.margin></Button>
                 <Button fx:id="startButton" mnemonicParsing="false" onAction="#start" text="Start">
-               <HBox.margin>
+                    <HBox.margin>
                   <Insets bottom="5.0" left="7.0" right="7.0" top="5.0" />
                </HBox.margin></Button>
                 <Button fx:id="stopButton" mnemonicParsing="false" onAction="#stop" text="Stop">
-               <HBox.margin>
+                    <HBox.margin>
                   <Insets bottom="5.0" left="7.0" right="7.0" top="5.0" />
                </HBox.margin></Button>
                 <Button fx:id="stepButton" mnemonicParsing="false" onAction="#step" text="Step">
-               <HBox.margin>
+                    <HBox.margin>
                   <Insets bottom="5.0" left="7.0" right="7.0" top="5.0" />
                </HBox.margin></Button>
             </children>
@@ -65,15 +65,16 @@
                <VBox.margin>
                   <Insets bottom="7.0" top="7.0" />
                </VBox.margin></Label>
-             <CheckBox alignment="BOTTOM_LEFT" mnemonicParsing="false" onAction="#immunity" textAlignment="CENTER">
-               <VBox.margin>
+             <CheckBox fx:id="immunityBox" alignment="BOTTOM_LEFT" mnemonicParsing="false" textAlignment="CENTER">
+                 <VBox.margin>
                   <Insets bottom="7.0" />
                </VBox.margin></CheckBox>
              <Label text="Wybor memento">
                <VBox.margin>
                   <Insets bottom="7.0" top="7.0" />
                </VBox.margin></Label>
-             <ChoiceBox onAction="#snapshot" prefWidth="150.0" />
+             <ChoiceBox fx:id="snapshotBox" prefWidth="150.0">
+             </ChoiceBox>
          </children>
       </VBox>
    </left>

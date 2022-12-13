@@ -1,10 +1,8 @@
-package com.example.virusspread.model.Object;
+package com.kluczynskidamian.virusspread.model.Object;
 
 
-import com.example.virusspread.model.Vector2d.Vector2D;
+import com.kluczynskidamian.virusspread.model.Vector2d.Vector2D;
 import javafx.scene.layout.Pane;
-
-import static com.example.virusspread.model.Object.Person.radius;
 
 
 public class Position {
@@ -39,7 +37,7 @@ public class Position {
         return true;
     }
     public boolean meet(Position other){
-        return distance(other) <= 2 * radius + 4;
+        return distance(other) <= 2 * Person.radius + 4;
     }
 
     public double distance(Position other){

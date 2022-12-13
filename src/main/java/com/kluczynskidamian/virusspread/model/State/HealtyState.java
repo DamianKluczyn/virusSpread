@@ -1,4 +1,4 @@
-package com.example.virusspread.model.State;
+package com.kluczynskidamian.virusspread.model.State;
 
 import javafx.scene.paint.Color;
 

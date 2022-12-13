@@ -1,4 +1,6 @@
-package com.example.virusspread.model.Object;
+package com.kluczynskidamian.virusspread.model.Simulation;
+
+import com.kluczynskidamian.virusspread.model.Object.Person;
 
 import java.util.ArrayList;
 
