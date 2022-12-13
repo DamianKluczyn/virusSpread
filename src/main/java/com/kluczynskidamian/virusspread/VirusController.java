@@ -34,8 +34,8 @@ public class VirusController {
     Simulation simulation;
 
     private class Movement extends AnimationTimer{
-        private long fps = 25;
-        private long interval = 1000000000 / fps;
+        private final long  fps = 25;
+        private final long interval = 1000000000 / fps;
         private long last = 0;
         private Integer ticks = 0;
         private double time = 0.0;

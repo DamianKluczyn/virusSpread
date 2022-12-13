@@ -16,7 +16,7 @@ public class Person {
     private Direction direction;
     private Pane pane;
     private Circle circle;
-    private CareTaker careTaker;
+    private final CareTaker careTaker;
     private Map<Person, Double> timeNearSick = new HashMap<>();
     private double sickTime = 0.0;
     public static double radius = 6.0;
@@ -36,19 +36,11 @@ public class Person {
             this.position = new Position(pane, radius);
         }
         else{
-            switch(new Random().nextInt(5 - 1) + 1){
-                case 1:
-                    this.position = new Position(pane.getWidth(), pane.getHeight() * Math.random());
-                    break;
-                case 2:
-                    this.position = new Position(pane.getWidth() * Math.random(), pane.getHeight());
-                    break;
-                case 3:
-                    this.position = new Position(0, pane.getHeight() * Math.random());
-                    break;
-                case 4:
-                    this.position = new Position(pane.getWidth() * Math.random(), 0);
-                    break;
+            switch (new Random().nextInt(5 - 1) + 1) {
+                case 1 -> this.position = new Position(pane.getWidth(), pane.getHeight() * Math.random());
+                case 2 -> this.position = new Position(pane.getWidth() * Math.random(), pane.getHeight());
+                case 3 -> this.position = new Position(0, pane.getHeight() * Math.random());
+                case 4 -> this.position = new Position(pane.getWidth() * Math.random(), 0);
             }
         }
     }

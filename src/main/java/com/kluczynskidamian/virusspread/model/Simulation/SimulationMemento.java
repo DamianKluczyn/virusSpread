@@ -1,7 +1,6 @@
 package com.kluczynskidamian.virusspread.model.Simulation;
 
 import com.kluczynskidamian.virusspread.model.Object.Person;
-
 import java.util.ArrayList;
 
 public class SimulationMemento {

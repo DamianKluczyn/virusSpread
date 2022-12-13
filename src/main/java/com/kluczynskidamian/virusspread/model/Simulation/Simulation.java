@@ -11,13 +11,13 @@ import java.util.ArrayList;
 
 public class Simulation {
     private ArrayList<Person> personArrayList;
-    private SimulationCareTaker simulationCareTaker;
-    private Pane pane;
+    private final SimulationCareTaker simulationCareTaker;
+    private final Pane pane;
 
     public Simulation(Pane pane, int population, boolean immune){
         this.pane = pane;
 
-        personArrayList = new ArrayList<Person>();
+        personArrayList = new ArrayList<>();
         if(immune){
             for(int person = 0; person < population; person++){
                 if(Math.random() < 0.4){

@@ -6,25 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5988ac29-2ca4-4412-83d4-930ee427cce2" name="Changes" comment="Added Direction, Position class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/VirusApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/VirusApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/VirusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/VirusController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/CareTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Object/CareTaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Object/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Memento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Object/Memento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Object/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Object/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Simulation/Simulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/SimulationCareTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Simulation/SimulationCareTaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Object/SimulationMemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Simulation/SimulationMemento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/State/HealtyState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/State/HealtyState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/State/IState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/State/IState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/State/ImmuneState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/State/ImmuneState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/State/NoSymptomsState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/State/NoSymptomsState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/State/SymptomsState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/State/SymptomsState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Vector2d/IVector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Vector2d/IVector2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/virusspread/model/Vector2d/Vector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Vector2d/Vector2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/virusspread/virus-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/kluczynskidamian/virusspread/virus-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/VirusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/VirusController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Object/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Object/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Object/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Object/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Simulation/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Simulation/Simulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Simulation/SimulationCareTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Simulation/SimulationCareTaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Simulation/SimulationMemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kluczynskidamian/virusspread/model/Simulation/SimulationMemento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +109,8 @@
       <updated>1670716209543</updated>
       <workItem from="1670716210735" duration="1601000" />
       <workItem from="1670752916448" duration="16383000" />
-      <workItem from="1670860004582" duration="12985000" />
+      <workItem from="1670860004582" duration="13116000" />
+      <workItem from="1670960209543" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="Added Person, Memento, CareTaker">
       <created>1670805702340</created>

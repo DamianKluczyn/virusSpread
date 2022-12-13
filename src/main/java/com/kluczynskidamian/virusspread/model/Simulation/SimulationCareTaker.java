@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SimulationCareTaker {
-    private Simulation simulation;
-    private Map<Integer, SimulationMemento> simulationMementoMap;
+    private final Simulation simulation;
+    private final Map<Integer, SimulationMemento> simulationMementoMap;
 
     SimulationCareTaker(Simulation simulation){
         this.simulation = simulation;

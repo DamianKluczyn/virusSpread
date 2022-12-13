@@ -1,6 +1,5 @@
 package com.kluczynskidamian.virusspread.model.Object;
 
-
 import com.kluczynskidamian.virusspread.model.Vector2d.Vector2D;
 import javafx.scene.layout.Pane;
 
